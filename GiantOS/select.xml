@@ -1,0 +1,18 @@
+﻿<dialog title="选择导出的库元件类型" buttons="accept,cancel">
+	<grid>
+		<columns>
+			<column />
+			<column />
+		</columns>
+		<rows>
+			<row align="right">
+				<label value="元件类型" />
+				<radiogroup id="type" groupbox="true">
+					<radio label="影片剪辑" value="movie clip" />
+					<radio label="图片" value="bitmap"/>
+					<radio label="声音" value="sound" />
+				</radiogroup>
+			</row>
+		</rows>
+	</grid>
+</dialog>
